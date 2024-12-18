@@ -1,5 +1,5 @@
 const { log } = require('console');
-var readline = require('readline');
+var readline = require('readlinesync');
 var r = readline.createInterface({
     input: process.stdin,
     output: process.stdout,
